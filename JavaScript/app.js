@@ -10,7 +10,7 @@ const backgrounds = [
     "rgb(124,253,107)",
     "rgb(148,216,255)",
 ]
-let gameSpeed = 2;
+let gameSpeed = 4;
 const bird = {
     x: 7,
     y: 5,
