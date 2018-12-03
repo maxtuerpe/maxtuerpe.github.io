@@ -224,7 +224,7 @@ $('#start-game').on('click', (e)=>{
     }});
     setInterval(()=>{
         $('.score').text(`score: ${bird.score}`);
-        $('.missles').text(`missles: ${bird.missles}`);
+        $('.missles').text(`missiles: ${bird.missles}`);
     }, 10)
     $('body').keydown((e)=>{
         if(e.keyCode === 83){
